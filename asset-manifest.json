@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/namolll/static/css/main.015bbd6e.css",
+    "main.js": "/namolll/static/js/main.96f0e53e.js",
+    "static/js/453.f2e0dfef.chunk.js": "/namolll/static/js/453.f2e0dfef.chunk.js",
+    "static/media/mining.jpg": "/namolll/static/media/mining.a8eaa53416ab0595c8d7.jpg",
+    "static/media/feasible.jpg": "/namolll/static/media/feasible.6a785b248298cadedad8.jpg",
+    "static/media/projectmanagement.jpg": "/namolll/static/media/projectmanagement.ac361ede56049b65d3dd.jpg",
+    "static/media/permits.jpg": "/namolll/static/media/permits.2b4e9eed5e95b6044958.jpg",
+    "static/media/investment.jpg": "/namolll/static/media/investment.bfbf926d7b8ca5f2d609.jpg",
+    "static/media/partnership.jpg": "/namolll/static/media/partnership.134d4a956041d9d2fbee.jpg",
+    "static/media/education.jpg": "/namolll/static/media/education.be5496465660a3e6cb46.jpg",
+    "static/media/training.jpg": "/namolll/static/media/training.de28bbda26bf25936c8c.jpg",
+    "static/media/hero.jpg": "/namolll/static/media/hero.d0199ead818ce08d124c.jpg",
+    "static/media/home.jpg": "/namolll/static/media/home.f28a2ead0adaa0b306af.jpg",
+    "static/media/whatwespecializein.jpg": "/namolll/static/media/whatwespecializein.0dad96a314b82df40d1c.jpg",
+    "static/media/businessfacilitation.jpg": "/namolll/static/media/businessfacilitation.c4d4141f5c5f5168158c.jpg",
+    "static/media/hotline.jpg": "/namolll/static/media/hotline.38ab3bdca42af08536c7.jpg",
+    "static/media/health.jpg": "/namolll/static/media/health.d94089e487af1e33e0c5.jpg",
+    "static/media/phone.jpg": "/namolll/static/media/phone.3a95a92549e53aaaf12f.jpg",
+    "static/media/strategic.jpg": "/namolll/static/media/strategic.48fc921d156cf1491d7d.jpg",
+    "static/media/realestate.jpg": "/namolll/static/media/realestate.4e3dad2ec9cf17ab7099.jpg",
+    "static/media/oilandgas.jpg": "/namolll/static/media/oilandgas.5524a3993a0af00e9034.jpg",
+    "static/media/1403962.jpg": "/namolll/static/media/1403962.1613dff7a882fea33c51.jpg",
+    "static/media/1404161.jpg": "/namolll/static/media/1404161.ec42ad1d082fa0b15773.jpg",
+    "static/media/clientss.jpg": "/namolll/static/media/clientss.a5a840e65a84c6b91465.jpg",
+    "index.html": "/namolll/index.html",
+    "main.015bbd6e.css.map": "/namolll/static/css/main.015bbd6e.css.map",
+    "main.96f0e53e.js.map": "/namolll/static/js/main.96f0e53e.js.map",
+    "453.f2e0dfef.chunk.js.map": "/namolll/static/js/453.f2e0dfef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.015bbd6e.css",
+    "static/js/main.96f0e53e.js"
+  ]
+}
