@@ -14,12 +14,14 @@ import Mining from './Pages/subpages/Mining';
 import Health from './Pages/subpages/Health';
 import Education from './Pages/subpages/Education';
 import Realestate from './Pages/subpages/Realestate';
+import Footer from './components/footer';
 
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+      <Navbar />
   <div>
     <Routes>
       <Route path="/" element={<Home />} />
@@ -35,6 +37,7 @@ function App() {
       <Route path="/management" element={<Management />} />
     </Routes>
   </div>
+  <Footer />
 </BrowserRouter>
     </div>
     
