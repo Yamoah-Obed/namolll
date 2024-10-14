@@ -1,0 +1,510 @@
+body{
+    font-family: Arial,Helvetica,Georgia,sans-serif;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, div, button {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("../Assets/home.jpg"); /* Replace with your actual background image */
+}
+
+
+
+
+/* Style the hometext */
+
+
+/* Style the Learn More button */
+.learnmore {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #333; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the Learn More button */
+.learnmore:hover {
+    background-color: #555; /* Darker background color on hover */
+}
+
+
+
+.hero {
+  background-image: url('../Assets/hero.jpg'); /* Replace with your background image URL */
+  background-size: cover; /* Ensures the image covers the entire hero section */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Aligns content vertically */
+  width: 100%;
+}
+
+.subhero {
+  background-color: rgba(39, 33, 33, 0.5); /* Transparent background, change the color as needed */
+  padding: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners */
+  color: #ffffff; /* Text color */
+  margin-left: 60px;
+  margin-top: 80px;
+  box-shadow: 0 5px 9px 0 rgba(255, 255, 255, 0), 0 7px 21px 0 rgba(255, 255, 255, 0.19);
+}
+
+.subhero p, .subhero h2, .subhero ul {
+  text-align: left;
+}
+
+.subhero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subhero ul {
+  padding: 0;
+}
+
+.subhero ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Tablet (max-width: 1024px) */
+
+
+
+
+
+.map1{
+    display: flex;
+   justify-content: center;
+}
+
+
+.whatwedo{
+    padding:  50px 0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wdcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wdtxt {
+    text-align: center;
+    max-width: 800px; 
+  }
+  
+  .wdtxt p {
+    margin: 0; 
+  }
+
+
+
+.spec{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    gap: 50px;
+}
+
+.specc{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.help{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+.homecont{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/hotline.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: 0.1;
+}
+
+.subhomecont{
+    width: 60%;
+    height: 30vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(39, 33, 33, 0.5);
+
+   
+}
+
+.subhomecont::before{
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+.vision{
+    background-color: rgb(230, 230, 230);
+}
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slide-in animation */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .scroll-animation-left {
+    animation: slideInLeft 1s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .scroll-animation-right {
+    animation: slideInRight 1s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  /* Add this to ensure the element appears only when in view */
+  .in-view {
+    opacity: 1 !important;
+  }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1024px) {
+    .hero {
+        height: 90vh; /* Adjust height for tablets */
+    }
+
+    .subhero {
+        margin-left: 40px;
+        margin-top: 60px;
+        padding: 15px;
+    }
+
+    .subhero h2 {
+        font-size: 22px;
+    }
+
+    .subhero ul li {
+        font-size: 16px;
+    }
+
+    
+
+    .spec img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: 80vh;
+        justify-content: center; /* Centers the subhero */
+    }
+
+    .subhero {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 30px;
+        padding: 15px;
+        text-align: center; /* Center text for smaller screens */
+    }
+
+    .subhero h2 {
+        font-size: 20px;
+    }
+
+    .subhero ul li {
+        font-size: 14px;
+    }
+
+    .background {
+        height: 80vh;
+    }
+
+    
+
+    .specText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subhomecont {
+        width: 90%;
+        height: auto;
+    }
+
+    .help, .vision {
+        padding: 20px 10px;
+    }
+}
+
+/* Mobile small (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    
+
+    .hero {
+        height: 75vh;
+        justify-content: center; /* Center content vertically */
+    }
+
+    .subhero {
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center; /* Center content for very small screens */
+    }
+
+    .subhero h2 {
+        font-size: 18px;
+    }
+
+    .subhero ul li {
+        font-size: 12px;
+    }
+
+    .background {
+        height: 70vh;
+    }
+
+   
+
+    .subhomecont {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Large screens and TVs (min-width: 1440px) */
+@media only screen and (min-width: 1440px) {
+    .hero {
+        height: 110vh; /* Larger height for big screens */
+    }
+
+    .subhero {
+        margin-left: 80px;
+        margin-top: 100px;
+        padding: 30px;
+    }
+
+    .subhero h2 {
+        font-size: 28px;
+    }
+
+    .subhero ul li {
+        font-size: 20px;
+    }
+
+    .background {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    
+
+    .spec img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .subhomecont {
+        width: 70%;
+    }
+}
+
+
+
+
+/* General Styles */
+.background {
+ /* Replace with the correct image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hometext {
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  
+}
+
+.hometext h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hometext p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* Slide-in animation */
+.scroll-animation-left {
+  animation: slideInLeft 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+/* Tablet (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  .background {
+      height: 90vh;
+  }
+
+  .hometext h1 {
+      font-size: 50px;
+      font-family: Hint;
+  }
+
+  .hometext p {
+      font-size: 18px;
+  }
+
+  .hometext {
+      max-width: 90%;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .background {
+      height: 80vh;
+  }
+
+  .hometext h1 {
+      font-size: 45px;
+      font-family: Hint;
+  }
+
+  .hometext p {
+      font-size: 16px;
+  }
+
+  .hometext {
+      max-width: 100%;
+      padding: 0 20px;
+  }
+}
+
+/* Mobile small (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .background {
+      height: 70vh;
+  }
+
+  .hometext h1 {
+      font-size: 40px;
+      font-family: Hint;
+  }
+
+  .hometext p {
+      font-size: 14px;
+  }
+
+  .hometext {
+      max-width: 100%;
+      padding: 0 10px;
+  }
+}
+
+/* Large screens and TVs (min-width: 1440px) */
+@media only screen and (min-width: 1440px) {
+  .background {
+      height: 110vh;
+  }
+
+  .hometext h1 {
+      font-size: 60px;
+      font-family: Hint;
+  }
+
+  .hometext p {
+      font-size: 24px;
+  }
+
+
+}

@@ -1,0 +1,132 @@
+/* Default styles (desktop first) */
+.spec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .specText {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .specText h1 {
+    font-size: 50px;
+  }
+  
+  .specText p ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .specText p ul li {
+
+    line-height: 1.6;
+  }
+  
+  .specText p ul li b {
+    font-weight: bold;
+  }
+  
+  .spec img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Tablet (max-width: 1024px) */
+  @media only screen and (max-width: 1024px) {
+    .spec {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 30px;
+    }
+  
+    .specText {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .specText h1 {
+      font-size: 2em;
+    }
+  
+    .specText p ul li {
+      
+    }
+  
+    .spec img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+  }
+  
+  /* Mobile (max-width: 768px) */
+  @media only screen and (max-width: 768px) {
+    .spec {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .specText {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .specText h1 {
+      font-size: 1.8em;
+    }
+  
+    .specText p ul li {
+      font-size: 1em;
+    }
+  
+    .spec img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  }
+  
+  /* Mobile small (max-width: 480px) */
+  @media only screen and (max-width: 480px) {
+    .spec {
+      padding: 15px;
+    }
+  
+    .specText h1 {
+      font-size: 1.5em;
+    }
+  
+    .specText p ul li {
+      font-size: 0.9em;
+    }
+  
+    .spec img {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
+  /* Television and large screens (min-width: 1440px) */
+  @media only screen and (min-width: 1440px) {
+    .spec {
+      gap: 80px;
+    }
+  
+    .specText h1 {
+      font-size: 2em;
+    }
+  
+    
+  
+    .spec img {
+      width: 600px;
+      height: auto;
+    }
+  }
+  

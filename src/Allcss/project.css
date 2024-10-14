@@ -1,0 +1,50 @@
+.projectItem {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .projectItem h3 {
+    color: white;
+    font-size: 24px;
+    z-index: 2;
+    margin-bottom: 20px;
+  }
+  
+  .projectItem button {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease;
+  }
+  
+  
+  
+  .projectItem:hover button {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }

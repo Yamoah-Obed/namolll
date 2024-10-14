@@ -1,0 +1,164 @@
+body{
+    font-family: Arial,Helvetica,Georgia;
+}
+
+.abt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .abttxt {
+    width: 50%;
+  }
+  
+  .abttxtimg img {
+    width: 80%;
+    height: 500px;
+    border-radius: 30px;
+  }
+  
+  hr {
+    width: 50%;
+    height: 2px;
+    background-color: blue;
+    margin: 20px auto;
+  }
+  
+  /* Mission and Vision Section */
+  .mv {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 40px 0;
+  }
+  
+  .mvv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mvvmission, .mvvvision {
+    width: 45%;
+  }
+  
+  .mvvmission p, .mvvvision p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Objectives Section */
+  .obj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .abttxt1img img {
+    width: 80%;
+    height: 500px;
+    border-radius: 30px;
+  }
+  
+  .abttxt1 {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styling */
+  
+  /* For Mobile Devices */
+  @media (max-width: 768px) {
+    .abt {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .abttxt, .abttxtimg, .abttxt1img {
+      width: 100%;
+    }
+  
+    .abttxtimg img, .abttxt1img img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .mvv {
+      flex-direction: column;
+    }
+  
+    .mvvmission, .mvvvision {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .obj {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    hr {
+      width: 80%;
+    }
+  }
+  
+  /* For Tablets */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .abt, .obj {
+      flex-direction: column;
+    }
+  
+    .abttxt, .abttxtimg, .abttxt1img {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .abttxtimg img, .abttxt1img img {
+      width: 80%;
+      height: auto;
+    }
+  
+    .mvv {
+      flex-direction: column;
+    }
+  
+    .mvvmission, .mvvvision {
+      width: 100%;
+      text-align: center;
+    }
+  
+    hr {
+      width: 60%;
+    }
+  }
+  
+  /* For Television (Large Screens) */
+  @media (min-width: 1920px) {
+    h2 {
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+    }
+  
+    .abt, .obj {
+      padding: 40px;
+    }
+  
+    .mvvmission p, .mvvvision p {
+      font-size: 1.5rem;
+    }
+  
+    .abttxtimg img, .abttxt1img img {
+      height: 600px;
+    }
+  
+    hr {
+      width: 30%;
+    }
+  }

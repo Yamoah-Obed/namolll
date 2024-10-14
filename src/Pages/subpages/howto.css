@@ -1,0 +1,19 @@
+.howto{
+    background-color: rgb(230, 230, 230)
+}
+
+.hide2{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .hide1{
+        display: none;
+    }
+    .hide2{
+        display: block;
+    }
+  }

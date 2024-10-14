@@ -1,0 +1,62 @@
+/* Basic styling for the slider container */
+.testimonial-slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  /* Slide container */
+  .slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Active slide */
+  .slide.active {
+    opacity: 1;
+  }
+  
+  /* Styling the testimonial content */
+  .testimonial-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-name {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 5px;
+  }
+  
+  .testimonial-position {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .testimonial-slider {
+      width: 100%;
+    }
+  
+    .testimonial-text {
+      font-size: 1em;
+    }
+  
+    .testimonial-name {
+      font-size: 1.3em;
+    }
+  }
+  

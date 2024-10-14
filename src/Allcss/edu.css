@@ -1,0 +1,13 @@
+.educontainer {
+    
+    align-items: center;
+    display: flex;
+    
+  }
+  
+  
+  
+  .educontainer .edutxt {
+    width: 80%; /* You can adjust this width to make the text container fit as desired */
+    padding: 20px; /* Adds some padding for better text readability */
+  }

@@ -1,0 +1,215 @@
+body{
+  font-family: Arial,Helvetica,Georgia;
+}
+
+.contact-container {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Contact Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.contact-card {
+  background-color: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-card h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-card p {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Image */
+.contact-image img {
+  width: 60%;
+  height: 50vh;
+  border-radius: 10px;
+}
+
+.contact-image{
+  width: 60%;
+  height: 50vh;
+}
+
+
+
+/* Responsive Styling */
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .contact-container {
+    padding: 1rem;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .contact-image img {
+    
+    width: 60%;
+    height: 45vh;
+  }
+  .contact-image{
+    width: 100%;
+  }
+  
+
+}
+
+/* Tablet Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1920px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .contact-container {
+    padding: 4rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .contact-card {
+    padding: 2rem;
+  }
+
+  .contact-image img {
+    height: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .vertical{
+    border-left: 6px solid blue;
+    height: 320px;
+  }
+
+  @media (max-width: 768px) {
+    .cont{
+      flex-direction: column-reverse;
+      justify-content: center;
+      
+    }
+
+    .vertical{
+      display: none;
+    }
+    .contact-form{
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .input{
+      max-width: 100%;
+      justify-content: center;
+    }
+
+    .Contact{
+      padding:40px 0px;
+    }
+
+    
+  }
